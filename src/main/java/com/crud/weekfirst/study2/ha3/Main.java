@@ -1,6 +1,7 @@
 package com.crud.weekfirst.study2.ha3;
 
 import java.util.ArrayList;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -8,6 +9,9 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+
+
 
         ArrayList<Integer> primes = getPrimes(scanner.nextInt());
         for (Integer prime : primes) {
